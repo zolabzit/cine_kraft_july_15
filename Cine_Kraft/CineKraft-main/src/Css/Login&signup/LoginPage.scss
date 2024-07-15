@@ -1,0 +1,137 @@
+.left_side_loginPageimg {
+  background-image: url(https://images.pexels.com/photos/8263369/pexels-photo-8263369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LoginSingupBtn_clss {
+  color: #dac0a3 !important;
+  text-decoration: none;
+}
+/* a-scene{
+    flex:1;
+    height: 100%;
+  } */
+.left_LoginpageTitle {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 2px;
+}
+.ant-tabs-nav {
+  padding: 0 20px;
+}
+.ant-tabs-nav-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login_Container {
+  margin-top: 20%;
+}
+.Right_side_loginPageFields {
+  /* background-image: url(../../public/images/bi.jpg); */
+  // background-color: #edf3f3;
+  background-color: #102c57;
+  height: 100vh;
+
+  /* background-repeat: no-repeat;
+    background-size: cover;  */
+}
+.loginContent_Container {
+  margin: 0px 20px;
+}
+.loginField_booking {
+  margin-top: 20px;
+}
+.loginPage_button {
+  // width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-right: 20px;
+  // margin-top: 10px;
+}
+.loginPage_button_1{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.Login_ForgotButton {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  text-decoration: none;
+  color: #dac0a3;
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.Login_ForgotButton_1 {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 10px;
+  text-decoration: none;
+  color: #dac0a3;
+  font-weight: 700;
+  // margin-top: 10px;
+  font-size: 12px;
+}
+.RxDoubleArrowLeft_forgot{
+  font-size: 20px;
+}
+.loginBackgroundStyle {
+  background-color: #dac0a3;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 3px;
+  color: #102c57;
+}
+.otp_input {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginPage_button_backIcon {
+  // width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  // color: red !important;
+}
+.LoginAllinput_FieldClss{
+  background-color: #EADBC8;
+}
+//////////////////////////////////////////// singup page////////////////////////////////////////////////////////////
+.SingupArrow_btn {
+  color: #dac0a3 !important;
+  font-size: 31px;
+}
+.Singup_Input_field{
+  width: 90%;
+  height: 44px;
+}
+.Singup_Input_field::placeholder{
+  color: #102C57 !important;
+  font-weight: 600;
+}
+.Singup_Input_field input[type="password"]::placeholder {
+  color: #102C57 !important;
+  font-weight: 600;
+}
+.Singup_Input_field .ant-select-selection-placeholder {
+  color: #102C57 !important;
+  font-weight: 600;
+}

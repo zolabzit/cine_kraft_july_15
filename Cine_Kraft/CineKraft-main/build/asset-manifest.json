@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34ad8736.css",
+    "main.js": "/static/js/main.79a8f896.js",
+    "static/js/787.23b40473.chunk.js": "/static/js/787.23b40473.chunk.js",
+    "static/media/Marketing.jpg": "/static/media/Marketing.94b43655497444b82903.jpg",
+    "static/media/OurServices.png": "/static/media/OurServices.226c21f8c4c062f01d3d.png",
+    "static/media/ActorsCollage.png": "/static/media/ActorsCollage.ce090a017cab2df0b404.png",
+    "static/media/Visual Reference.png": "/static/media/Visual Reference.8cb5d5e1f2c35a4a6bec.png",
+    "static/media/directorDebut.png": "/static/media/directorDebut.b41f2e49eaec1e1e59d4.png",
+    "static/media/_090b29e0-c005-4493-b5a9-be671b6632e9.jpeg": "/static/media/_090b29e0-c005-4493-b5a9-be671b6632e9.8deb6f65b82a9a705a5f.jpeg",
+    "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/introduction.jpeg": "/static/media/introduction.c0bc8478d6993c08598f.jpeg",
+    "static/media/synopsis.jpeg": "/static/media/synopsis.8d5bc3884b5009506eea.jpeg",
+    "static/media/logline.jpeg": "/static/media/logline.05e89880d1f69f82fccc.jpeg",
+    "static/media/plot.jpeg": "/static/media/plot.7d1da91422a8a99869a3.jpeg",
+    "static/media/character.jpeg": "/static/media/character.d5797ca9e72bd2b64142.jpeg",
+    "static/media/conclusion.jpg": "/static/media/conclusion.1b92ca026e7a8010f0eb.jpg",
+    "static/media/Carousel01.jpg": "/static/media/Carousel01.6a84da2a983dd37a0219.jpg",
+    "static/media/message.jpg": "/static/media/message.8827ec7299fe99b1bc24.jpg",
+    "static/media/flimproduction.jpg": "/static/media/flimproduction.3243d2cba261f6f10986.jpg",
+    "static/media/primeicons.eot": "/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/CineKraftLogo.png": "/static/media/CineKraftLogo.35d1f35cf59d04cdd711.png",
+    "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/color.png": "/static/media/color.6441e63a57ccc5105bad.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.34ad8736.css.map": "/static/css/main.34ad8736.css.map",
+    "main.79a8f896.js.map": "/static/js/main.79a8f896.js.map",
+    "787.23b40473.chunk.js.map": "/static/js/787.23b40473.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34ad8736.css",
+    "static/js/main.79a8f896.js"
+  ]
+}

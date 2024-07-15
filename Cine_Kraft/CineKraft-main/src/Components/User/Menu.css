@@ -1,0 +1,46 @@
+/* src/components/Menu.css */
+.menu-container {
+    position: relative;
+  }
+  
+  .menu-bar {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .bar {
+    height: 4px;
+    width: 30px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.2s;
+  }
+  
+  .menu-bar.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .menu-bar.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-bar.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .full-page-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  

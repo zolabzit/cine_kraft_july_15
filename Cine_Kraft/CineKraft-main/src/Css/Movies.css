@@ -1,0 +1,26 @@
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+  }
+
+  .slick-arrow.next-arrow {
+    margin-left: 50px;
+  }
+
+  .slick-arrow.prev-arrow {
+    left: 0;
+  }
+
+  /* button color  */
+
+  .form-check-input:checked {
+    background-color: #022135;
+    border-color: #022135;
+}
+.btn-close{
+  color: #022135;
+  background-color: white!important;
+}

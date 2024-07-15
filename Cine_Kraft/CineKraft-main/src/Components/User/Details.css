@@ -1,0 +1,43 @@
+/* Add this CSS in your stylesheet or component */
+.card-container {
+    position: relative;
+  }
+  
+  .card-image {
+    position: relative;
+  }
+  
+  .play-pause-icon {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: white; /* Icon color */
+    background-color: rgba(72, 70, 70, 0.7); 
+    border-radius: 45%; /* Make it a circle */
+    padding: 0.5rem; /* Adjust padding as needed */
+    cursor: pointer; /* Add cursor style to indicate it's clickable */
+  }
+  
+  /* Styles for when hovering over the icon (optional) */
+  .play-pause-icon:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darken the background on hover */
+    /* Add any other hover styles you prefer */
+  }
+/* Add this CSS in your stylesheet or component */
+.vt_hov {
+    /* Regular styles for the element */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition properties */
+  }
+  
+  .vt_hov:hover {
+    /* Styles to apply when hovering over the element */
+    background-color: lightgray; /* Example hover style */
+    transform: scale(1.1); /* Example hover style */
+    /* Add any other hover styles you prefer */
+  }
+
+
+  /* Actor details */
+

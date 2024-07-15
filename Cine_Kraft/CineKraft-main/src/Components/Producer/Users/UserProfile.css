@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+
+.center {
+  position: relative;
+  overflow: hidden;
+  top: 50px;
+  height: 299px;
+  width: 320px;
+  background: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.profile {
+  float: left;
+  width: 200px;
+  height: 320px;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149017495.jpg?size=626&ext=jpg&ga=GA1.1.786155833.1675059853&semt=sph");
+
+  .image {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 38px auto 0 auto;
+
+    .circle-1 {
+      position: absolute;
+      box-sizing: border-box;
+      width: 76px;
+      height: 76px;
+      top: -3px;
+      left: -3px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: brown brown brown transparent;
+      border-radius: 50%;
+      transition: all 1.5s ease-in-out;
+    }
+
+    .circle-2 .circle-1 {
+      width: 82px;
+      height: 82px;
+      top: -6px;
+      left: -6px;
+      border-color: brown transparent brown brown;
+    }
+    .img_pro {
+      display: block;
+      border-radius: 60%;
+      background: #f5e8df;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .circle-1 {
+        transform: rotate(360deg);
+      }
+
+      .circle-2 {
+        transform: rotate(-360deg);
+      }
+    }
+  }
+
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .job {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .actions {
+    margin-top: 33px;
+
+    .btn {
+      display: block;
+      width: 120px;
+      height: 30px;
+      margin: 0 auto 10px auto;
+      background: none;
+      border: 1px solid brown;
+      border-radius: 15px;
+      font-size: 12px;
+      font-weight: 600;
+      box-sizing: border-box;
+      transition: all 0.3s ease-in-out;
+      color: brown;
+
+      &:hover {
+        background-color: brown;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.stats {
+  float: left;
+
+  .vendor_profile_box {
+    box-sizing: border-box;
+    width: 120px;
+    height: 99px;
+    background: rgb(253, 206, 214);
+    text-align: center;
+    padding-top: 28px;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      background-color: rgb(54, 50, 50);
+      color: white;
+      cursor: pointer;
+    }
+
+    &:nth-child(2) {
+      margin: 1px 0;
+    }
+  }
+
+  .span {
+    display: block;
+  }
+
+  .value {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .parameter {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .vendor_info {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 20%;
+    width: 100%;
+    height: auto;
+  }
+  .center {
+    top: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .vendor_info {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 10%;
+    width: 200%;
+    height: auto;
+  }
+  .center {
+    top: 50px;
+  }
+}

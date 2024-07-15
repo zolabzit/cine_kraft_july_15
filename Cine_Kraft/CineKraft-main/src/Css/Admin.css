@@ -1,0 +1,29 @@
+body{
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* Add Movies */
+
+.picture-wall-image-small {
+    max-width: 100px; /* Adjust the width as needed */
+    max-height: 100px; /* Adjust the height as needed */
+}
+
+/* Playing Now */
+
+.playCard{
+    box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.playCard:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.philosopher-font {
+    font-family: 'Philosopher', sans-serif!important;
+    font-size: 18px;
+    
+  }
+
+  /* checkbox color */
+

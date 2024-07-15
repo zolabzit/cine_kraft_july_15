@@ -1,0 +1,9 @@
+.background_clr_transparent{
+    background-color: #022135;
+   color: white;
+   border-radius: 10px;
+   box-shadow: inset 5px 5px 2px 6px #022135;
+}
+.label_color{
+    color: black;
+}
